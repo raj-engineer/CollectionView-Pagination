@@ -28,21 +28,16 @@ class ApiHelper
         
         // Show Activity Indicator
         // CustomActivityIndicator.sharedInstance.showActivityIndicator(uiView: vc.view)
-        
         do {
             let jsonData =  try JSONSerialization.data(withJSONObject: param, options: JSONSerialization.WritingOptions.prettyPrinted) // first of all convert json to the data
             let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) // the data will be converted to the string
-            //let jsonData = try? JSONSerialization.data(withJSONObject: postString)
+            
             print("\n\(type):  URL : \(strURL)")
             print("Request json ",jsonString ?? "defaultvalue")
             let url = URL(string: strURL)
-            var request = URLRequest(url: url!)
-            // request.httpMethod = "POST"
-            //request.httpBody = jsonData
-            // callApi(request: request, vc: vc, type: type)
+            let request = URLRequest(url: url!)
             
-            // 3
-            let encodedURLRequest = request.encode(with: param as! Parameters)
+            let encodedURLRequest = request.encode(with: param as? Parameters)
             
             let task = URLSession.shared.dataTask(with: encodedURLRequest) { data, response, error in
                 guard let data = data, error == nil else {
@@ -59,7 +54,7 @@ class ApiHelper
                 }
                 
                 let response = NSString(data: data, encoding: String.Encoding.utf8.rawValue)
-                print("Get Response  ",response)
+                print("Get Response  ",response ?? "No Response")
                 DispatchQueue.main.async {
                     
                     //  Passing the data from closure to the calling method
@@ -70,16 +65,12 @@ class ApiHelper
             }
             
             task.resume()
-            
-            
-            
-            
         }
         catch let myJSONError {
             print(myJSONError)
         }
         
-}
+    }
 }
 
 
