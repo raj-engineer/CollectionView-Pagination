@@ -21,9 +21,8 @@
 		1811424621B13FB900EB4B83 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811424521B13FB900EB4B83 /* Constants.swift */; };
 		1811424821B141E200EB4B83 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811424721B141E200EB4B83 /* ResponseData.swift */; };
 		1811424A21B144A900EB4B83 /* LoadMoreCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811424921B144A900EB4B83 /* LoadMoreCollectionReusableView.swift */; };
-		1811425221B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.11.50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811424F21B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.11.50.png */; };
-		1811425321B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.12.15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811425021B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.12.15.png */; };
-		1811425421B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.12.52.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811425121B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.12.52.png */; };
+		1811425721B155B500EB4B83 /* Screen Shot 2018-11-30 at 4.52.39 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811425521B155B500EB4B83 /* Screen Shot 2018-11-30 at 4.52.39 PM.png */; };
+		1811425821B155B500EB4B83 /* Screen Shot 2018-11-30 at 4.54.33 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811425621B155B500EB4B83 /* Screen Shot 2018-11-30 at 4.54.33 PM.png */; };
 		C75883AF239F82B75962ECAE /* Pods_CollectionView_PaginationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED667F3824F78B6BEE0A02BC /* Pods_CollectionView_PaginationTests.framework */; };
 		E6C01080144A771B15765E12 /* Pods_CollectionView_Pagination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8160422150FC1902B6EB6E /* Pods_CollectionView_Pagination.framework */; };
 /* End PBXBuildFile section */
@@ -67,9 +66,8 @@
 		1811424521B13FB900EB4B83 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1811424721B141E200EB4B83 /* ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
 		1811424921B144A900EB4B83 /* LoadMoreCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoreCollectionReusableView.swift; sourceTree = "<group>"; };
-		1811424F21B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.11.50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.11.50.png"; sourceTree = "<group>"; };
-		1811425021B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.12.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.12.15.png"; sourceTree = "<group>"; };
-		1811425121B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.12.52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.12.52.png"; sourceTree = "<group>"; };
+		1811425521B155B500EB4B83 /* Screen Shot 2018-11-30 at 4.52.39 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-11-30 at 4.52.39 PM.png"; sourceTree = "<group>"; };
+		1811425621B155B500EB4B83 /* Screen Shot 2018-11-30 at 4.54.33 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-11-30 at 4.54.33 PM.png"; sourceTree = "<group>"; };
 		2D1D0C7BC5B91859BD01E4E6 /* Pods_CollectionView_PaginationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollectionView_PaginationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8160422150FC1902B6EB6E /* Pods_CollectionView_Pagination.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollectionView_Pagination.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9615734735660386B435F8 /* Pods-CollectionView-PaginationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionView-PaginationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionView-PaginationTests/Pods-CollectionView-PaginationTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -202,9 +200,8 @@
 		1811424E21B14BDC00EB4B83 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				1811424F21B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.11.50.png */,
-				1811425021B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.12.15.png */,
-				1811425121B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.12.52.png */,
+				1811425521B155B500EB4B83 /* Screen Shot 2018-11-30 at 4.52.39 PM.png */,
+				1811425621B155B500EB4B83 /* Screen Shot 2018-11-30 at 4.54.33 PM.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -342,10 +339,9 @@
 			files = (
 				1811421B21B130DC00EB4B83 /* LaunchScreen.storyboard in Resources */,
 				1811421821B130DC00EB4B83 /* Assets.xcassets in Resources */,
-				1811425221B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.11.50.png in Resources */,
-				1811425321B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.12.15.png in Resources */,
+				1811425721B155B500EB4B83 /* Screen Shot 2018-11-30 at 4.52.39 PM.png in Resources */,
+				1811425821B155B500EB4B83 /* Screen Shot 2018-11-30 at 4.54.33 PM.png in Resources */,
 				1811421621B130DB00EB4B83 /* Main.storyboard in Resources */,
-				1811425421B14BDC00EB4B83 /* Simulator Screen Shot - iPhone 6 - 2018-11-30 at 16.12.52.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
