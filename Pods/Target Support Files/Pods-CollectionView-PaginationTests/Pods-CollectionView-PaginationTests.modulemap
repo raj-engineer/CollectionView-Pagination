@@ -1,0 +1,6 @@
+framework module Pods_CollectionView_PaginationTests {
+  umbrella header "Pods-CollectionView-PaginationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
